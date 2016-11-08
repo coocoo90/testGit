@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NetPhotoObserver</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sss">http://b.hiphotos.baidu.com/image/w%3D310/sign=ddc3d9511e950a7b753548c53ad0625c/6a600c338744ebf88b87e658daf9d72a6159a7e7.jpg</string>
+
+</resources>

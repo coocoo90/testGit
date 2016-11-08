@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.multithreadbreakpoint.MainActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请输入下载文件的路径" />
+
+    <EditText
+        android:id="@+id/edt_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="http://"
+        android:singleLine="true"
+        android:text="http://192.168.1.9:8080/tankWar.exe" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请输入线程数量" />
+
+    <EditText
+        android:id="@+id/edt_thread_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/btn_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下载" />
+
+    <LinearLayout
+        android:id="@+id/lin_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>
